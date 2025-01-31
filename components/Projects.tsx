@@ -7,25 +7,25 @@ const projects = [
         id: "warehouseManagement",
         title: "Warehouse Management and Simulation System",
         description: "A web-based system for designing and optimizing warehouse layouts with an interactive canvas editor, 3D simulations, and role-based access control (RBAC). Users can create decision points, define paths, and run simulations to optimize warehouse operations.",
-        image: "/warehouseManagement.png",
+        image: "https://github.com/shubham51919/Portfolio/blob/main/public/warehouseManagement.png?raw=true",
     },
     {
         id: "reportManagement",
         title: "Shared Report Editing and Management System",
         description: "A collaborative web platform for stakeholders to edit, manage, and review reports in real-time. Features access control, version history, and cloud storage integration.",
-        image: "/report-generation.png",
+        image: "https://github.com/shubham51919/Portfolio/blob/main/public/report-generation.png?raw=true",
     },
     {
         id: "employeeManagement",
         title: "Employee Management Portal",
         description: "A centralized system for managing employee records, roles, and performance tracking. Supports role-based access, document management, and real-time data analytics.",
-        image: "/employeePortal.png",
+        image: "https://github.com/shubham51919/Portfolio/blob/main/public/employeePortal.png?raw=true",
     },
     {
         id: "wordCloud",
         title: "Word Cloud Component",
         description: "An NPM package that generates word clusters based on frequency representation. Customizable with various layouts, colors, and interactive features.",
-        image: "/WordCloud1.png",
+        image: "https://github.com/shubham51919/Portfolio/blob/main/public/WordCloud1.png?raw=true",
     },
 ];
 

@@ -72,10 +72,10 @@ export default function ProjectPage() {
                 {
                     project.video.length > 0 ?
                         <video id="video" autoPlay loop muted controls>
-                            <source src={project.video} type="video/mp4" />
+                            <source src={`https://github.com/shubham51919/Portfolio/blob/main/public` + project.video + `?raw=true`} type="video/mp4" />
                         </video>
                         :
-                        <Image id="video" src={`${project.image}`} alt="Project background" layout="fill" objectFit="cover" quality={100} />
+                        <Image id="video" src={`https://github.com/shubham51919/Portfolio/blob/main/public${project.image}?raw=true`} alt="Project background" layout="fill" objectFit="cover" quality={100} />
                 }
                 <div className="absolute inset-0 bg-black opacity-75"></div>
             </div>
@@ -149,7 +149,7 @@ export default function ProjectPage() {
                         {project.additionalImages.map((img, index) => (
                             <img
                                 key={index}
-                                src={img || "/placeholder.svg"}
+                                src={"https://github.com/shubham51919/Portfolio/blob/main/public" + img + "?raw=true" || "/placeholder.svg"}
                                 alt={`${project.title} screenshot ${index + 1}`}
                                 className="w-full h-48 object-cover rounded-lg"
                             />

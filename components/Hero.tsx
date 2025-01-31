@@ -70,7 +70,7 @@ export default function Hero() {
                     className="relative w-full h-[500px]"
                 >
                     <Image
-                        src="/heroImage.png"
+                        src="https://github.com/shubham51919/Portfolio/blob/main/public/heroImage.png?raw=true"
                         alt="Developer workspace illustration"
                         fill
                         className="object-contain"
