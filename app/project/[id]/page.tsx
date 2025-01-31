@@ -147,7 +147,11 @@ export default function ProjectPage() {
                     <h2 className="text-2xl font-semibold mb-4">Project Images</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {project.additionalImages.map((img, index) => (
-                            <img
+
+                            <Image
+                                width="900"
+                                height="900"
+
                                 key={index}
                                 src={"https://github.com/shubham51919/Portfolio/blob/main/public" + img + "?raw=true" || "/placeholder.svg"}
                                 alt={`${project.title} screenshot ${index + 1}`}

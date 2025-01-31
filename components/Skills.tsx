@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { FaReact, FaNodeJs, FaGitAlt, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa"
-import { SiTypescript, SiAzure, SiJenkins, SiTailwindcss, SiMongodb, SiPostgresql } from "react-icons/si"
+import { SiTypescript, SiJenkins, SiTailwindcss, SiMongodb } from "react-icons/si"
 import { VscAzure } from "react-icons/vsc";
 import { PiMicrosoftTeamsLogoBold } from "react-icons/pi";
 const skills = [

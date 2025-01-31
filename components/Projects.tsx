@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import Image from "next/image"
 
 const projects = [
     {
@@ -45,7 +46,9 @@ export default function Projects() {
                         >
                             <Link href={`/project/${project.id}`}>
                                 <div className="relative">
-                                    <img
+                                    <Image
+                                        width="900"
+                                        height="900"
                                         src={project.image || "/placeholder.svg"}
                                         alt={project.title}
                                         className="card-img p-4 rounded-lg w-full h-64 object-cover"
