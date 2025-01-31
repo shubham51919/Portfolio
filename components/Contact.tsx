@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { FaEnvelope, FaLinkedin, FaGithub, FaMapMarkerAlt } from "react-icons/fa"
+import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa"
 
 export default function Contact() {
     const [name, setName] = useState("")
