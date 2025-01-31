@@ -14,7 +14,7 @@ Welcome to my portfolio! This website showcases my projects, skills, and ways to
 
 ### Projects Section
 <img width="1440" alt="Screenshot 2025-01-31 at 11 28 16 PM" src="https://github.com/user-attachments/assets/3d884bf7-afd0-4133-b8f2-0d7ccd1a7707" />
-<img width="1440" alt="Screenshot 2025-01-31 at 11 28 27 PM" src="https://github.com/user-attachments/assets/95997602-e55a-4842-9813-f4aced7f6eac" />
+<img width="1440" alt="Screenshot 2025-01-31 at 11 29 07 PM" src="https://github.com/user-attachments/assets/6886961e-4a6d-4dcb-b5fd-8ccb2edbce25" />
 
 ## 🛠️ Tech Stack
 - React + Vite  
