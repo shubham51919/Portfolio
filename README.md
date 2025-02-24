@@ -27,8 +27,8 @@ Welcome to my portfolio! This website showcases my projects, skills, and ways to
 ## 🏗️ Installation
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/shubham51919/Portfolio.git
+cd Portfolio
 npm install
 npm run dev
 ```
