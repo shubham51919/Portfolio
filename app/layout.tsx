@@ -6,7 +6,7 @@ import type React from "react" // Import React
 const inter = Montserrat({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your Name - Full Stack Developer",
+  title: "Shubham Sharma - Full Stack Developer",
   description: "Portfolio of Your Name, a Full Stack Developer specializing in React, Node.js, and TypeScript",
 }
 
